@@ -1,0 +1,32 @@
+*{
+  margin: 0px;
+}
+.App{
+  width: auto;
+}
+.card {
+  width: 100%;
+  height: 200px;
+  background: #333;
+  color: #fff;
+  font-size: 30px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .App {
+    max-width: 600px;
+  }
+ 
+}
+
+/* Mobiles */
+@media (max-width: 640px) {
+  .App {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+ 
+}

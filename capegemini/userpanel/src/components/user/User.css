@@ -1,0 +1,19 @@
+.user_details{
+    /* display: flex; */
+    background: #d1ecf1;
+    color: #35a4ba;
+    text-align: center;
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 10px;
+    height: 200px;
+    
+}
+.user_details h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.user_details p{
+    margin-bottom: 15px;
+}
